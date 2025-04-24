@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void problem1(void) {
     for (int i = 0; i < 10; i++) {
@@ -20,8 +21,8 @@ void problem2(void) {
 }
 
 void problem3(void) {
-    for (int i = 0; i < 10; i++) {
-        for (int j = 0; j< 10 ;j++) {
+    for (int i = 0; i < 50; i++) {
+        for (int j = 0; j< 50 ;j++) {
             if (j<i)printf(" ");
             if (j >= i && j > i*2)printf("-");
         }
@@ -30,11 +31,7 @@ void problem3(void) {
 }
 
 int main(){
-    problem1();
-    problem2();
     problem3();
-
-int main(void) {
-    printf("Hello, World!\n");
+    system("pause");
     return 0;
 }
