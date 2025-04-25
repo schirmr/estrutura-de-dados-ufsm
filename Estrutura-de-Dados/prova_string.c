@@ -17,12 +17,12 @@ void encontrarMaiorPalavra(char str[]) {
       aux = 0;
     }
   }
-  printf("%d", maior);
+  printf("Quantidade de letras na maior palavra: %d", maior);
 }
 
 int main(){
   char str[] = {"testando a versao desse programa CARAMBOLAS"};
-  printf("%s", str);
+  printf("%s\n", str);
   encontrarMaiorPalavra(str);
   return 0;
 }

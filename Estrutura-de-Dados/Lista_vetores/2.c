@@ -2,12 +2,9 @@
 
 int juntarVetores(int vet1[], int vet2[], int tam1, int tam2){
   int vet3[tam1+tam2];
-  for (int i = 0; i < tam1+tam2; i++) {
-    if (i < tam1) {
-      vet3[i] = vet1[i];
-    }
-    else vet3[i] = vet2[i-tam1];
-  }
+  int j;
+  for (int i = 0; i < tam1; i++) vet3[i] = vet1[i];
+  for (int i = tam1, j = 0; i < tam1+tam2; i++, j++) vet3[i] = vet2[j];
   for (int i = 0; i < tam1+tam2; i++) {
     printf("%d ", vet3[i]);
   }
