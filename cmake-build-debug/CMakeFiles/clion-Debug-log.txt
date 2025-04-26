@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S D:\Projects\CLion -B D:\Projects\CLion\cmake-build-debug
--- Configuring done (0.2s)
--- Generating done (0.1s)
--- Build files have been written to: D:/Projects/CLion/cmake-build-debug
+/snap/clion/338/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/schirmr/Documents/github/estrutura-de-dados-ufsm -B /home/schirmr/Documents/github/estrutura-de-dados-ufsm/cmake-build-debug
+CMake Error: CMake was unable to find a build program corresponding to "Unix Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
